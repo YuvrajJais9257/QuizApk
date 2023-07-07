@@ -1,0 +1,92 @@
+* {
+    font-family: 'Belanosima', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #1D222A url('bg.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .app {
+    background: #000000;
+    width: 100%;
+    max-width: 700px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .app h1 {
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: 700;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 30px;
+  }
+  
+  .quiz {
+    padding: 20px 0;
+  }
+  
+  .quiz h2 {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background: #FF5B00;
+    color: #FFFFFF;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    margin-bottom: 10px;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .btn:hover:not([disabled]) {
+    background: #FF8400;
+  }
+  
+  .btn:disabled {
+    cursor: no-drop;
+    background: #333333;
+  }
+  
+  #next-btn {
+    background: #FF0000;
+    color: #FFFFFF;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 12px;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .correct {
+    background: #4CAF50;
+  }
+  
+  .incorrect {
+    background: #FF4040;
+  }
+  
+  #next-btn:hover {
+    background: #FF1919;
+  }
+  
